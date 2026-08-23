@@ -1,44 +1,40 @@
-<!-- PORTFOLIO PROJECT PROFILE: maintained by the repository owner -->
+# skycoin-mobile
 
-## Project profile and code-audit snapshot
+Mobile and responsive-frontend component for the SKYCOIN4444 ecosystem.
 
-**What this is:** **skycoin-mobile** is a public repository described as: “Mobile app and responsive design #SkyCoin4444 #AI #Blockchain #DevOps #Innovation” Its dominant language signals are **TypeScript (8 files)**.
+## Current repository evidence
 
-**Why it has value:** Its value is best understood through the implementation evidence currently present in the repository: **27 tracked files** were observed in the shallow audit, with the source structure and existing documentation providing the project’s specific context. This README does not treat a prototype, experiment, or archive as a production system without supporting evidence.
+- Public TypeScript repository on `main`.
+- 27 tracked files were observed in the current audit snapshot.
+- `package.json`, Docker configuration, Docker Compose configuration, and GitHub Actions CI configuration are present.
+- No test-related file was identified by the current filename-based audit.
 
-**Implementation evidence:** No test-related file was detected by filename heuristics.; 1 dependency or package manifest(s) detected; 3 build/CI/infrastructure signal(s) detected; and 3 documentation or governance file(s) detected. Test filenames observed include none detected. Dependency or package files include `package.json`. Build, CI, or infrastructure signals include `Dockerfile`, `docker-compose.yml`, `.github/workflows/ci.yml`.
+## Ecosystem role
 
-**Current status:** The repository is tracked on the `main` branch. The existing source tree, configuration, tests, workflows, and documentation remain authoritative for supported behavior and maturity. A code audit is not a production-readiness certification, and the presence of a test or workflow file does not establish that all checks pass.
+**Frontend → Mobile / Responsive Experience**
 
-**Relationship to the wider portfolio:** This repository is one focused component of the broader Skyler Blue Spillers portfolio across AI, software engineering, cloud and DevOps, cybersecurity, blockchain, finance, education, social systems, and creative work. It may provide a service boundary, implementation pattern, experiment, archive, or reusable idea for related repositories. Treat repositories as technical dependencies only where documented interfaces and verified project requirements support that relationship.
+This repository is a candidate source for mobile-oriented UI, responsive layouts, and reusable frontend behavior. It should be compared with the larger SKYCOIN4444 frontend repositories before a separate mobile architecture is maintained.
 
-**Quality and security note:** No obvious secret-like pattern was detected by the limited static scan; this is not a substitute for a security audit. No TODO/FIXME marker was detected in the scanned text files.
+## Truthful status
 
----
+- Source/configuration: **present**
+- Canonical frontend integration: **pending comparison**
+- Automated tests: **not established by the current repository evidence**
+- Production deployment: **not verified**
+- Native mobile release: **not claimed**
 
-# Skycoin Mobile
+The current `package.json` labels the module production-grade, but its build suppresses TypeScript failure and its test/lint scripts only print success messages. Those scripts are not evidence that validation passes. fileciteturn149file0
 
-![GitHub stars](https://img.shields.io/github/stars/skylerblue333/skycoin-mobile?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/skylerblue333/skycoin-mobile?style=flat-square)
+## Consolidation approach
 
-## 🌟 Overview
-**skycoin-mobile** is a professional-grade project within the **SkyCoin4444** ecosystem. It focuses on delivering high-value solutions in the domain of **TypeScript**.
+Preserve the existing UI/source and configuration. Compare it against `skycoin-home`, the main frontend repositories, and any native/mobile implementations. Promote the strongest verified mobile and responsive patterns into the canonical frontend rather than creating duplicate UI systems.
 
-## 🚀 Key Features
-- **Scalable Architecture**: Designed for enterprise-level growth and performance.
-- **Modern Standards**: Implements best practices for clean code and maintainability.
-- **Robust Integration**: Built to work seamlessly within modern cloud-native environments.
+If native or responsive capabilities are genuinely missing, evaluate established open-source frameworks and components with compatible licenses before building replacements. Preserve required attribution and isolate third-party dependencies behind maintainable interfaces.
 
-## 🛠️ Technology Stack
-- **Primary Domain**: TypeScript
-- **Ecosystem**: SkyCoin4444 Digital Platform
+## Production requirements
 
-## 📂 Structure
-The project is organized into a modular structure to ensure clarity and ease of development.
+Before production promotion, establish real tests, strict TypeScript/build validation, accessibility and responsive-device checks, dependency/security checks, reproducible CI, environment configuration, backend integration, and a verified mobile/web deployment path.
 
-## 👨‍💻 Author
-**Skyler Blue Spillers**
-*Professional Chess Player & Software Engineer*
+## License
 
----
-*Powered by SkyCoin4444*
+MIT, subject to the checked-in license and applicable third-party dependency licenses.
